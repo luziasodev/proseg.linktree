@@ -40,12 +40,14 @@ body {
 
 .head-links {
   display: flex;
-  justify-content: center;
   align-items: center;
+  position: relative;
+  justify-content: center;
+  margin-right: 22px;
 }
 
 .item {
-    display: inline-block;
+  display: inline-block;
 }
 
 h1 {
@@ -95,9 +97,7 @@ h2 {
   position: relative;
   width: 180px;
   height: 180px;
-  display: block;
-  margin: 40px auto 20px;
-  border-radius: 50%;
+  margin: 20px auto 15px;
   -webkit-tap-highlight-color: transparent;
   cursor: auto;
 }
@@ -140,10 +140,9 @@ h2 {
 }
 
 a {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
-
 
 @media (hover: hover) {
   .link:hover {
@@ -212,8 +211,6 @@ a {
     transform: translateY(-2000px);
   }
 }
-
-
 
 /*-----------------------parallax-----------------------*/
 /* credits: https://www.youtube.com/watch?v=aywzn9cf-_U */
@@ -780,6 +777,6 @@ a {
 }
 
 footer {
-    text-align: right;
-    padding-top: 50px;
+  text-align: right;
+  padding-top: 50px;
 }
