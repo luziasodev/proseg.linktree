@@ -2,7 +2,7 @@
 
 site de compilado de links.
 
-# créditos
+* créditos
 
 template: https://github.com/johnggli/linktree
 
